@@ -9,7 +9,14 @@
 # Please read the README and/or imwheel(1) manpage for info
 # and this is best operated on using vim (as I said: It's crunchy)
 
-#
+".*"
+None,      Up,   Button4, 3
+None,      Down, Button5, 3
+Control_L, Up,   Control_L|Button4
+Control_L, Down, Control_L|Button5
+Shift_L,   Up,   Shift_L|Button4
+Shift_L,   Down, Shift_L|Button5
+
 # This is only for demonstration of the priority command...
 # See the other global Exclude command below for the one you want to use!
 # If this is activated it will only apps that have a lower priority
